@@ -11,4 +11,15 @@ dependencies = [
     "pydantic>=2.10.4",
     "tenacity>=9.0.0",
     "typer>=0.15.1",
+    "mypy>=1.14.0",
 ]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+strict = true
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+warn_unreachable = true

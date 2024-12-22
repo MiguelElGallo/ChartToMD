@@ -1,17 +1,21 @@
-import typer
 import asyncio
-from pydantic_settings import BaseSettings, Field
+
+import typer
 from azure.identity.aio import DefaultAzureCredential
 from mediadescriber import ContentUnderstandingDescriber
-
+from pydantic import Field
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
     cu_secret: str = Field(..., env="CU_SECRET")
+
     class Config:
         env_file = ".env"
 
+
 app = typer.Typer()
+
 
 @app.command()
 def run_cli(image_path: str, endpoint: str):
@@ -27,6 +31,7 @@ def run_cli(image_path: str, endpoint: str):
         print(description)
 
     asyncio.run(_run())
+
 
 if __name__ == "__main__":
     app()

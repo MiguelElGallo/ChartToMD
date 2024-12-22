@@ -1,0 +1,6 @@
+typer
+pydantic
+aiohttp
+azure-identity
+tenacity
+pydantic-settings
