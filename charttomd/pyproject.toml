@@ -1,0 +1,14 @@
+[project]
+name = "charttomd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.11.11",
+    "azure-identity>=1.19.0",
+    "pydantic-settings>=2.7.0",
+    "pydantic>=2.10.4",
+    "tenacity>=9.0.0",
+    "typer>=0.15.1",
+]

@@ -2,6 +2,7 @@ MIT License
 
 Copyright (c) 2024 Miguel P Z
 
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -11,6 +12,11 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+
+https://github.com/Azure-Samples/azure-search-openai-demo/blob/main/app/backend/prepdocslib/mediadescriber.py
+
+sOrigin of code snippet: Azure-Samples/azure-search-openai-demo
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
